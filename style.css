@@ -1,25 +1,7 @@
 .container {
-  background-color: #dacaca;
+  background-color: #d0dbd9;
   display: flex;
-  justify-content: space-around;
-}
-
-.container .box {
-  margin-left: 50px;
-}
-
-.container2 {
-  background-color: #dacaca;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  width: 110px;
-}
-
-.container2 .box {
-  width: 50px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  flex-flow: row wrap-reverse;
 }
 
 .box {
@@ -34,6 +16,7 @@
 
 .box1 {
   background-color: #000000;
+  order: 1;
  }
 
  .box2 {
@@ -58,6 +41,7 @@
 
  .box7 {
   background-color: #e67e22;
+  order: -1;
  }
 
  .box8 {
